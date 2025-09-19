@@ -31,12 +31,21 @@
         <h2>Latest Episode</h2>
     </main>
 
+    
     <footer class="footer">
-        <p>© 2025 NAP</p>
+      <p id="last-updated"></p>
+            <p>© 2025 NAP</p>
     </footer>
+
+    <script>
+      const lastUpdated = new Date(document.lastModified);
+      document.getElementById("last-updated").textContent =
+        "Site last updated: " + lastUpdated.toLocaleDateString();
+    </script>
 
 
 </body>
 
 </html>
+
 
