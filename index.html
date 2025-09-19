@@ -32,20 +32,21 @@
     </main>
 
     
-    <footer class="footer">
+    <footer>
       <p id="last-updated"></p>
-            <p>© 2025 NAP</p>
     </footer>
 
     <script>
       const lastUpdated = new Date(document.lastModified);
       document.getElementById("last-updated").textContent =
-        "Site last updated: " + lastUpdated.toLocaleDateString();
+        "Last updated: " + lastUpdated.toLocaleString();
     </script>
+
 
 
 </body>
 
 </html>
+
 
 
