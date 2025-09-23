@@ -8,7 +8,7 @@ body{
   text-align: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-style: bold;
+  font-style: italic;
 }
 a:link{
   color: rgb(255, 255, 255);
@@ -17,7 +17,7 @@ a:visited{
   color: rgb(255, 255, 255);
 }
 .header:hover{
-  text-shadow: 0px 0px 20px rgb(0, 0, 0);
+  text-shadow: 0px 0px 20px rgb(255, 0, 0);
 }
 .main{
   font-size: 50px;
